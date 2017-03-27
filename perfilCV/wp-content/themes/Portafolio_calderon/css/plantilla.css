@@ -1,0 +1,333 @@
+body {
+  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+#cap{
+	height: 510px;
+	background-image: url(../images/basecap_01.jpg);
+}
+
+.medusa{
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+	font-size: 72px;
+	color: white;
+	margin-top: 80px;
+}
+.gd{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 30px;
+	letter-spacing: 7px;
+	color: white;
+	margin-top: -15px;
+}
+#menu{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 30px;
+	color: white;
+	text-align: right;
+	margin-top: 98px;
+	line-height: 60px;
+	list-style-type: none;
+}
+li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+li a:hover{
+	color: #4a787f;
+}
+
+
+#rrss{
+	margin-top: 90px;
+}
+
+.in{
+	height: 45px;
+	width: 45px;
+	background-image: url(../images/social_03.png);
+	float: left;
+	margin-right: 15px;
+	
+}
+/*
+.in:hover{
+	height: 45px;
+	width: 45px;
+	background-image: url(../images/rshover_03.png);
+	float: left;
+	margin-right: 15px;	
+}
+*/
+.fb{
+	height: 45px;
+	width: 45px;
+	background-image: url(../images/social_05.png);
+	float:left;
+	margin-right: 15px;
+}
+/*
+.fb:hover{
+	height: 45px;
+	width: 45px;
+	background-image: url(../images/rshover_05.png);
+	float:left;
+	margin-right: 15px;
+}
+*/
+.tw{
+	height: 45px;
+	width: 45px;
+	background-image: url(../images/social_07.png);
+	float:left;
+	margin-right: 15px;
+
+}
+/*
+.tw:hover{
+	height: 45px;
+	width: 45px;
+	background-image: url(../images/rshover_07.png);
+	float:left;
+	margin-right: 15px;
+
+}
+*/
+.insta{
+	height: 45px;
+	width: 45px;
+	background-image: url(../images/social_09.png);
+	float:left;
+	
+}
+/*
+.insta:hover{
+	height: 45px;
+	width: 45px;
+	background-image: url(../images/rshover_09.png);
+	float:left;
+}
+*/
+
+.cita{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	
+}
+#barra{
+	background-color: #4a787f;
+	height: 99px;
+	margin-top: 109px;
+	margin-bottom: 109px;
+	padding-top: 30px;
+	
+}
+
+#sobremi{
+	background-image: url(../images/sobremi_18.png);
+	height: 399px;
+}
+#ptexto{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 30px;
+	margin-bottom: 50px;
+	
+}
+
+.foto1{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/proyecto_23.jpg);
+	margin:5px;	
+}
+.foto1:hover{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/hover_23.jpg);
+	margin:5px;	
+}
+.foto2{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/proyecto_25.jpg);
+	margin:5px;
+}
+.foto2:hover{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/hover_25.jpg);
+	margin:5px;
+}
+.foto3{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/proyecto_27.jpg);
+	margin:5px;	
+}
+.foto3:hover{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/hover_27.jpg);
+	margin:5px;	
+}
+
+.foto4{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/proyecto_29.jpg);
+	margin:5px;
+	
+}
+.foto4:hover{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/hover_29.jpg);
+	margin:5px;
+	
+}
+.foto5{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/proyecto_35.jpg);
+	margin:5px;
+}
+.foto5:hover{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/hover_35.jpg);
+	margin:5px;
+}
+.foto6{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/proyecto_36.jpg);
+	margin:5px;
+}
+.foto6:hover{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/hover_36.jpg);
+	margin:5px;
+}
+.foto7{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/proyecto_37.jpg);
+	margin:5px;
+}
+.foto7:hover{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/hover_37.jpg);
+	margin:5px;
+}
+.foto8{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/proyecto_38.jpg);
+	margin:5px;
+}
+.foto8:hover{
+	height: 200px;
+	width: 220px;
+	background-image: url(../images/hover_38.jpg);
+	margin:5px;
+}
+#barraproyectos{
+	background-color: #4a787f;
+	height: 109px;
+	margin-top: 580px;
+	margin-bottom: 109px;
+	
+}
+#ctexto{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 30px;
+	margin-bottom: 50px;	
+}
+form .nombre{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+
+}
+form .email {
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+}
+form .asunto{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+}
+form .mensaje{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+}
+p.enviar{
+	margin: 10px;
+	padding: 10px 15px;
+	background-color: #05c0b4;
+	text-align: center;
+	width: 60px;
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 18px;
+	color: white;	
+
+}
+.enviar a{
+	text-decoration: none;
+	color: white;
+	
+}
+.enviar a:hover, a:active{
+	color:#4a787f;
+}
+
+
+#barrapeu{
+	background-color: #4a787f;
+	height: 80px;
+	margin-top: 109px;
+	padding-top: 30px;
+}
+.copy{
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

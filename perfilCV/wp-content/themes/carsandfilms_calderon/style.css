@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*---------------------------------------------------------------------------------
+
+	Theme Name: carsandfilms
+    Version: 0.9
+	Author: Amanda Calderón
+	Description: arsandfilms és un tema de prova.
+    Tags: films, cars
+	
+	
+-----------------------------------------------------------------------------------*/
+
+@import url('css/reset.css') screen;
+@import url('css/gwd') screen;
+@import url('css/style.css') screen;
+

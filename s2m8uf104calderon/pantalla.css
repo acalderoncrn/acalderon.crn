@@ -1,0 +1,423 @@
+body {
+	background-color: #e9ebee;
+	margin:0;
+	font-family: 'Lucida Grande', Tahoma, Sans-Serif;
+}
+
+h3{
+	margin:0 0 0 16px;
+	padding: 0 16px;
+	height: 24px;
+
+	font-size: 0.96em;
+	font-weight: 400;
+	text-indent: 15px;
+
+	background-image: url(img/spritelateral.png);
+	background-repeat: no-repeat;
+	
+}
+
+#fotos h3{
+		background-position: 0 -24px;
+}
+
+#amics h3{
+		background-position: 0 -48px;
+
+}
+
+#barra{
+	height: 45px;
+	background-color: #3b5998;
+	margin:0;
+	position: fixed;
+	left: 0;
+	right:0;
+	z-index: 10;
+}
+
+#barra img{
+	height: 50px;
+	width: 50px;
+	margin-left: 130px;
+}
+
+#barra form{
+	height: 50px;
+	width: 200px;
+	background-color: red;
+	float: right;
+	position: relative;
+	right: 700px;
+	margin-top: 15px;
+}
+
+#cos{
+	width: 851px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+#portada{
+	height: 315px;
+	background-image: url(img/portada.jpg);
+}
+
+#menu{
+	height: 44px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	padding-left: 200px;
+}
+
+#menu ul{
+	overflow:hidden;
+	margin:0;
+	border-left:solid 1px #e9ebee;
+	padding: 0;
+}
+
+
+#menu ul li {
+	display: block;
+	float:left;
+	height: 44px;
+	margin:0;
+	border-right:solid 1px #e9ebee;
+}
+
+#menu ul li a{
+	display:block;
+	height: 44px;
+	background-color: #FFF;
+	padding: 0 18px;
+	line-height: 40px;
+	text-decoration: none;
+	color:#3b5998;
+	font-weight: 600; 
+}
+
+#menu ul li a:hover {
+	background-color: #e9ebee;
+	color:#333;
+}
+
+#lateral{
+	width: 322px;
+	float:left;
+}
+
+#perfil #foto{
+	width: 160px;
+	height: 160px;
+	background-image: url(img/perfil.jpg);
+	border: solid 4px white;
+	box-shadow: 0px 0px 4px #333;
+	border-radius: 4px;
+	position:absolute;
+	top: -198px;
+	left:16px;
+	z-index: 5;
+}
+
+#perfil #foto p{
+	color: #FFF;
+	font-size: 1.8em;
+	position: relative;
+	left:186px;
+	top: 70px;
+	text-shadow: 0px 0px 4px #000;
+	width: 300px;
+}
+
+#perfil ul{
+	border-top: solid 1px #e9ebee;
+	font-size: 0.75em;
+	padding: 16px 16px 16px 36px;
+
+}
+
+#perfil ul li{
+	line-height: 24px;
+	text-indent: 6px;
+	border-bottom: solid 1px #e9ebee;
+}
+
+#perfil .estudis{
+	list-style-image: url(img/icones_estudis.png);
+}
+
+#perfil .relacio{
+	list-style-image: url(img/icones_situaciosentimental.png);
+}
+
+#perfil .domicili{
+	list-style-image: url(img/icones_domicili.png);
+}
+
+#perfil .feina{
+	list-style-image: url(img/icones_feina.png);
+}
+
+#perfil .esdeveniments{
+	list-style-image: url(img/icones_esdeveniments.png);
+}
+
+#perfil, #fotos, #amics{
+	background-color: #FFF;
+	margin-bottom: 10px;
+	position:relative;
+	padding-top: 16px;
+	border-radius: 2px;
+}
+
+#amics ul, #fotos ul{
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+#amics ul li, #fotos ul li{
+	background-image: url(img/perfil.jpg);
+	background-size: 101px 101px;
+	margin:3px;
+	width: 101px;
+	height: 101px;
+	display: table-cell;
+	float:left;
+	color: white;
+	text-shadow: 1px 1px 1px #333;
+	font-size: 0.8em;
+	font-weight: 700;
+	position: relative;
+}
+
+#amics ul #acuna{
+	background-image: url(http://drive.google.com/uc?export=view&id=0BzWizg48ak8-WVMwTUg4Z29wT3c);
+}
+
+#amics ul #baez{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B1joQFn8yJkAV25VcnRpa0xNR1k);
+}
+
+#amics ul #cedeno{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B_Mo9Qj--7n_Z0tidmgwWTkyZUk);
+}
+
+#amics ul #forcadell{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B6VkTsNKO-CJcVdKX2pLU1lhZ2s);
+}
+
+#amics ul #gutierrez{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B-AJgXaKMsVoWTNkcTkyc2VRS2s);
+}
+
+#amics ul #herrador{
+	background-image: url(http://drive.google.com/uc?export=view&id=0BzP1PPtVt_OMN05nSEhsb1d4cDQ);
+}
+
+#amics ul #lazaro{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B3zlP1TSUZZ8ekxRYjk4djYtMTg);
+}
+
+#amics ul #medina{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B_M8rZ8IyIBdbmpjT1hfOG1mSVU);
+}
+
+#amics ul #panta{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B67x2msum0TmNW1HMEx0RDNvdnc);
+}
+
+#amics ul #pousa{
+	background-image: url(http://drive.google.com/uc?export=view&id=0BwxXde5oOHWfVFliMjlaRUhjbW8);
+}
+
+#amics ul #revuelta{
+	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/c29.0.100.100/p100x100/10354686_10150004552801856_220367501106153455_n.jpg?oh=e8ca515e48d1bc743308966715634bee&oe=58C66077);
+}
+
+#amics ul #rico{
+	background-image: url(http://drive.google.com/uc?export=view&id=0ByI_JQjMb5O6Z0dfNDhSZzJyazQ);
+}
+
+#amics ul #ruiz{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B5jpNoBsk2okX05leVVEeTNOVVk);
+}
+
+#amics ul #sanchez{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B1haNyqPCflMV29MX1RUTHN5OEU);
+}
+
+#amics ul #santacruz{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B1twP1hQ2Jz3SzNtbG81NjFvRE0);
+}
+
+#amics ul #silvera{
+	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/c29.0.100.100/p100x100/10354686_10150004552801856_220367501106153455_n.jpg?oh=e8ca515e48d1bc743308966715634bee&oe=58C66077);
+}
+
+#amics ul #vera{
+	background-image: url(http://drive.google.com/uc?export=view&id=0B8j9O4IK8O47bmp2UUlab0IwWDg);
+}
+
+
+#amics ul li p{
+	margin:0;
+	position: absolute;
+	bottom: 0;
+}
+
+#fotos ul li{
+	background-image: url(img/fotos.jpg);
+	background-size: 100%;
+}
+
+#publica{
+	width: 513px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	float: right ;
+}
+
+#publica ul{
+	background-color: #f6f7f9;
+	margin:0;
+	padding: 9px;
+	overflow: hidden;
+}
+
+#publica ul li{
+	display: block;
+	float:left;
+	margin: 0 10px;
+	background-image: url(img/spriteestat.png);
+	background-repeat: no-repeat;
+	text-indent: 27px;
+}
+
+
+#publica .fotovideo {
+	background-position: 5px -23px;
+	border-left: solid 1px #ccc;
+}
+#publica .esdeveniment {
+	background-position: 5px -44px;
+	border-left: solid 1px #ccc;
+}
+
+
+#publica form{
+	height: 86px;
+	padding: 14px;
+	
+}
+
+#publica form .entrada{
+	height: 42px;
+	width: 485px;
+	border:none;
+	padding: 0 0 10px 0;
+	background-image: url(img/perfil.jpg);
+	background-repeat: no-repeat;
+	background-size: 42px 42px;
+	text-indent: 56px;
+	font-size: 1em;
+	color: #666;
+	font-family: 'Lucida Grande', Tahoma, Sans-Serif;
+	border-bottom: solid 1px #e9ebee;
+	margin-bottom: 10px;
+}
+
+#publica form .boto{
+	height: 24px;
+	width: 84px;
+	border:none;
+	padding: 0;
+	font-size: 1em;
+	color: #FFF;
+	position: relative;
+	left: 304px;
+	background-color: #3b5998;
+	border-radius: 2px;
+	font-weight: 500;
+	font-size: 0.9em;
+	font-family: 'Lucida Grande', Tahoma, Sans-Serif;
+}
+
+#publica form .selector{
+	height: 24px;
+	width: 96px;
+	border:none;
+	padding: 0;
+	font-size: 1em;
+	color: #000;
+	background-color: #f6f7f9;;
+	border-radius: 2px;
+	font-weight: 500;
+	font-size: 0.9em;
+	font-family: 'Lucida Grande', Tahoma, Sans-Serif;
+	position: relative;
+	left: 290px;
+}
+
+#publica form select option{
+	background-image: 
+}
+
+.mur{
+
+	width: 513px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	float:right;
+}
+
+.mur .parcheclear{
+	display: block;
+	clear: both;
+	float: none;
+}
+
+.mur iframe{
+
+	padding-left: 9px;
+}
+
+.mur img{
+	width: 42px;
+	height: 42px;
+	padding: 9px;
+	float:left;
+}
+
+.mur .compartir{
+	color:#999;
+	margin: 9px 0 0 0;
+
+}
+
+.mur .compartir b{
+	color: #3b5998;
+}
+
+.mur .data{
+	font-size: 0.9em;
+	margin: 5px 0 0 0;
+	color: #999;
+}
+
+.mur .entrada{
+	clear: both;
+	padding: 9px;
+	font-size: 0.96em;
+
+}
+
+
+
+
+
+

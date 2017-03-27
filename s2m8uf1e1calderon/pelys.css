@@ -1,0 +1,147 @@
+body{
+	background-color: #222;
+	font-family: "Helvetica", Sans-serif;
+
+}
+
+#barra{
+
+	position: fixed;
+	top: 0;
+	left:0;
+	right: 0;
+	height: 50px;
+	margin: 0;
+	background-color: #222; 
+	opacity: 50%;
+	}
+
+#barra img{
+	margin: 5px 20px;
+	float: left;
+	
+}
+
+#barra ul {
+	clear: right;
+	list-style-type: none;
+
+}
+
+#barra li{
+	display: inline;
+}
+
+#barra li a{
+	text-decoration: none;
+	color: #CCC;
+	margin-right: 5px;
+}
+#barra ul li a:hover {
+	color: #FFF;
+}
+
+.right{
+	float: right;
+}
+
+ h3{
+	color: #FFF;
+	margin: 50px 22px 5px 22px;
+}
+
+ #documentalsint img{
+	width: 175px;
+	margin: 20px;
+	border-radius: 5px;
+	float: left;
+}
+
+#documentalsint ul li{
+	list-style-type: none;
+}
+
+#peliculespendents{
+	clear:left;
+
+}
+#peliculespendents ul li{
+	list-style-type: none;
+}
+
+ #peliculespendents img{
+	width: 175px;
+	margin: 20px;
+	border-radius: 5px;
+	float: left;
+}
+
+#peliculesvistes{
+	clear:left;
+
+}
+#peliculesvistes ul li{
+	list-style-type: none;
+}
+
+ #peliculesvistes img{
+	width: 175px;
+	margin: 20px;
+	border-radius: 5px;
+	float: left;
+}
+
+#seriesseguint{
+	clear:left;
+
+}
+#seriesseguint ul li{
+	list-style-type: none;
+}
+
+ #seriesseguint img{
+	width: 175px;
+	margin: 20px;
+	border-radius: 5px;
+	float: left;
+}
+
+#seriesvistes{
+	clear:left;
+
+
+}
+#seriesvistes ul li{
+	list-style-type: none;
+}
+
+ #seriesvistes img{
+	width: 175px;
+	margin: 20px;
+	border-radius: 5px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

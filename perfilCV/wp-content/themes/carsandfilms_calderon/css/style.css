@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-image: url(../img/fons.jpg);
+	font-family: 'Helvetica', Arial, Sans-serif;
+}
+
+
+#cap{
+	height: 589px;
+}
+h1{
+	font-size: 4em;
+	margin: 50px;
+}
+h1 b{
+	color: grey;
+}
+
+#cos{
+	
+}
+
+.pulp {
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.pulp:hover{
+	opacity: 1.0;
+}
+
+.taxi{
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.taxi:hover{
+	opacity: 1.0;
+}
+.bond{
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.bond:hover{
+	opacity: 1.0;
+}
+.ghost{
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.ghost:hover{
+	opacity: 1.0;
+}
+.bean{
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.bean:hover{
+	opacity: 1.0;
+}
+.back{
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.back:hover{
+	opacity: 1.0;
+}
+.rider{
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.rider:hover{
+	opacity: 1.0;
+}
+.team{
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.team:hover{
+	opacity: 1.0;
+}
+.break{
+	height:200px;
+	margin:10px;
+	margin-bottom:0px;
+	opacity: 0.5;
+}
+.break:hover{
+	opacity: 1.0;
+}
+p{
+	color: grey;
+	margin-left: 10px;
+	background-color: white;
+	width: 274px;
+	padding: 10px;
+}
+
+
+
+#peu{
+	height: 220px;
+}
+

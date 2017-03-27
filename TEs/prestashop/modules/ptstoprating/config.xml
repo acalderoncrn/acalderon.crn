@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ptstoprating</name>
+	<displayName><![CDATA[Pts top rating products]]></displayName>
+	<version><![CDATA[1.0]]></version>
+	<description><![CDATA[Display top rating products.]]></description>
+	<author><![CDATA[PrestaBrain]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
