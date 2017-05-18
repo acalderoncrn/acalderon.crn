@@ -1,0 +1,211 @@
+body{
+	font-family:"Poppins";
+	background-color:#fff;
+}
+
+#barra{
+	height:52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#barra .favorito{
+	width: 120px;
+	height:26px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/favoritos.png); 
+}
+
+#barra .atras{
+	width:48px;
+	height:48px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+
+#conver {
+	margin-top:90px;
+}
+
+.fotofavorito {
+	margin: 20px auto;
+	height: 78px;
+	overflow: hidden;
+}
+.fotofavorito:hover{
+	background-color: #C8E4D6;
+
+}
+
+#fotofavorito1, #fotofavorito2, #fotofavorito3, #fotofavorito4, #fotofavorito5 {
+	height:78px;
+	width:98px;
+	float: left;
+}
+
+#fotofavorito1{
+	background-image: url(img/fotofavoritos2.png);
+}
+
+#fotofavorito2{
+	background-image: url(img/fotochat2.png);
+}
+
+#fotofavorito3{
+	background-image: url(img/fotofavoritos3.png);
+}
+
+#fotofavorito4{
+	background-image: url(img/fotochat4.png);
+}
+
+#fotofavorito5{
+	background-image: url(img/fotofavoritos1.png);
+}
+
+h1{
+	margin-top: 20px;
+	color:#7E7E7E;
+	font-size:16px;
+	line-height:5px;
+}
+
+p{
+	color:#7E7E7E;
+	line-height:5px;
+	font-size: 14px;
+}
+
+.nombre {
+	font-weight: bold;
+	float: left;
+	width: 50%;
+}
+
+.mensa{
+	float: left;
+	width:200px;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 479px) and (orientation: portrait){
+body{
+	font-family:"Poppins";
+	background-color:#fff;
+}
+
+#barra{
+	height:52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#barra .favorito{
+	width: 120px;
+	height:26px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/favoritos.png); 
+}
+
+#barra .atras{
+	width:48px;
+	height:48px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+
+#conver {
+	margin-top:90px;
+}
+
+.fotofavorito {
+	margin: 20px auto;
+	height: 78px;
+	overflow: hidden;
+}
+.fotofavorito:hover{
+	background-color: #C8E4D6;
+
+}
+
+#fotofavorito1, #fotofavorito2, #fotofavorito3, #fotofavorito4, #fotofavorito5 {
+	height:78px;
+	width:98px;
+	float: left;
+}
+
+#fotofavorito1{
+	background-image: url(img/fotofavoritos2.png);
+}
+
+#fotofavorito2{
+	background-image: url(img/fotochat2.png);
+}
+
+#fotofavorito3{
+	background-image: url(img/fotofavoritos3.png);
+}
+
+#fotofavorito4{
+	background-image: url(img/fotochat4.png);
+}
+
+#fotofavorito5{
+	background-image: url(img/fotofavoritos1.png);
+}
+
+h1{
+	margin-top: 20px;
+	color:#7E7E7E;
+	font-size:16px;
+	line-height:5px;
+}
+
+p{
+	color:#7E7E7E;
+	line-height:5px;
+	font-size: 14px;
+}
+
+.nombre {
+	font-weight: bold;
+	float: left;
+	width: 50%;
+}
+
+.mensa{
+	float: left;
+	width:200px;
+}
+a{
+	text-decoration-line: none;
+}
+
+}

@@ -1,0 +1,392 @@
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#barra .logo{
+	width:72px;
+	height:54px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/logotipo_arje_blanco.png); 
+}
+
+#barra .menu{
+	width:25px;
+	height:18px;
+	float: left;
+	margin-left:14px;
+	margin-top:20px;
+	background-repeat: no-repeat;
+	background-image: url(img/menu.png); 
+}
+
+
+
+#barra .menu nav{
+	width: 40%;
+	height: 100%;
+	left: -100%;
+	margin: 0;
+	position: fixed;
+	background-color: #EA5851;
+}
+
+#barra .menu nav ul li{
+	display: block;
+	float: none;
+	margin-top: 25px;
+	
+}
+
+#barra .menu nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	background-color: #C8E4D6;
+
+}
+.menu {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+#barra .lupa{
+	width:33px;
+	height:30px;
+	float: right;
+	margin-right:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/lupa.png); 
+}
+
+#subarra{
+	width: 100%;
+	height: 52px;
+	margin-top:52px;
+	background-color: #FFF;
+	z-index:9;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#subarra .crear{
+	width:27px;
+	height:27px;
+	margin-left: 14px;
+	margin-top: 11px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-image: url(img/crear.png); 
+}
+
+#subarra .cuadricula{
+	width:48px;
+	height:48px;
+	float: right;
+	margin-right:-3px;
+	margin-top:11px;
+	background-repeat: no-repeat;
+	background-image: url(img/verlista.png); 
+}
+
+#subarra .verlista{
+	width:26px;
+	height:24px;
+	float: right;
+	margin-right:20px;
+	margin-top:11px;
+	background-repeat: no-repeat;
+	background-image: url(img/cuadricula.png); 
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px; 
+
+}
+
+.apuntarse{
+	width:81px;
+	height:81px;
+	margin-top:-30px;
+	background-image:url(img/apuntarse.png);
+	position:absolute;
+	left: 25%;
+	z-index:5;
+}
+
+#proyecto1{
+	height: 700px;
+	width:100%;
+	background-color:#FFF;
+}
+
+.proyectomuro{
+	height:50%;
+	width:50%;
+	margin: 0 auto 0 auto;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-image:url(img/proyectomuro.png);
+}
+
+#proyecto1 p{
+	color: #7E7E7E;
+	margin-right:25%;
+	text-align: right;
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 3px;
+}
+
+#proyecto1 h1{
+	margin: 0 auto 0 auto;
+	width: 50%;
+	color: #7E7E7E;
+	text-align: left;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#proyecto1 .desc{
+	margin: 0 auto 0 auto;
+	width: 50%;
+	color: #7E7E7E;
+	text-align: left;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 479px) and (orientation: portrait){
+
+	body{
+	font-family:"Poppins";
+	background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#barra .logo{
+	width:72px;
+	height:54px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/logotipo_arje_blanco.png); 
+}
+
+#barra .menu{
+	width:25px;
+	height:18px;
+	float: left;
+	margin-left:14px;
+	margin-top:20px;
+	background-repeat: no-repeat;
+	background-image: url(img/menu.png); 
+}
+
+
+
+
+
+
+
+#barra .menu nav{
+	width: 80%;
+	height: 100%;
+	left: -100%;
+	margin: 0;
+	position: fixed;
+	background-color: #EA5851;
+}
+
+#barra .menu nav ul li{
+	display: block;
+	float: none;
+	margin-top: 20px;
+	
+}
+
+#barra .menu nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	background-color: #C8E4D6;
+}
+.menu {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+#barra .lupa{
+	width:33px;
+	height:30px;
+	float: right;
+	margin-right:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/lupa.png); 
+}
+
+#subarra{
+	width: 100%;
+	height: 52px;
+	margin-top:52px;
+	background-color: #FFF;
+	z-index:9;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#subarra .crear{
+	width:27px;
+	height:27px;
+	margin-left: 14px;
+	margin-top: 11px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-image: url(img/crear.png); 
+}
+
+#subarra .cuadricula{
+	width:48px;
+	height:48px;
+	float: right;
+	margin-right:-3px;
+	margin-top:11px;
+	background-repeat: no-repeat;
+	background-image: url(img/verlista.png); 
+}
+
+#subarra .verlista{
+	width:26px;
+	height:24px;
+	float: right;
+	margin-right:20px;
+	margin-top:11px;
+	background-repeat: no-repeat;
+	background-image: url(img/cuadricula.png); 
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px; 
+
+}
+
+.apuntarse{
+	width:81px;
+	height:81px;
+	margin-top:-30px;
+	background-image:url(img/apuntarse.png);
+	position:absolute;
+	left: 5%;
+	z-index:5;
+}
+
+#proyecto1{
+	height: 700px;
+	width:100%;
+	background-color:#FFF;
+}
+
+.proyectomuro{
+	height:224px;
+	width:95%;
+	margin: 0 auto 0 auto;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-image:url(img/proyectomuro.png);
+}
+
+#proyecto1 p{
+	color: #7E7E7E;
+	margin-right:11px;
+	text-align: right;
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 3px;
+}
+
+#proyecto1 h1{
+	margin: 0 auto 0 auto;
+	width: 95%;
+	color: #7E7E7E;
+	text-align: left;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#proyecto1 .desc{
+	margin: 0 auto 0 auto;
+	width: 95%;
+	color: #7E7E7E;
+	text-align: left;
+	font-size: 14px;
+	line-height: 16px;
+
+}
+a{
+	text-decoration-line: none;
+}
+}

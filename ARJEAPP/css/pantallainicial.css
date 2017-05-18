@@ -1,0 +1,132 @@
+body{
+	font-family:"Poppins";
+	background-color:#EA5851;
+}
+
+#cap{
+	width: 30%;
+	height: 101px;
+	margin: 0 auto 0 auto;
+	top: 60px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-image: url(img/logotipo_blanco.png);
+}
+
+#cos{
+
+	height: 220px;
+	width: 70%;
+	margin: 100px auto 0 auto;
+}
+
+#cos h1{
+	font-size:35px;
+	color: #FFF;
+}
+
+#cos p{
+	font-size:23px;
+	line-height: 24px;
+	color: #FFF;
+	margin-top: -20px;
+}
+
+#peu{
+	height: 220px;
+}
+
+#peu p{
+	font-size:18px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+
+.registro{
+	background-color: #FFF;
+	width: 171px;
+	height: 47px;
+	border-radius: 5px;
+	margin:0 auto 0 auto;
+}
+
+#peu .registro p{
+	font-size:18px;
+	color:#EA5851;
+	padding-top: 10px;
+
+}
+
+
+
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 479px) and (orientation: portrait){
+body{
+	font-family:"Poppins";
+	background-color:#EA5851;
+}
+
+#cap{
+	width: 30%;
+	height: 101px;
+	margin: 0 auto 0 auto;
+	top: 60px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-image: url(img/logotipo_blanco.png);
+}
+
+#cos{
+
+	height: 220px;
+	width: 70%;
+	margin: 100px auto 0 auto;
+}
+
+#cos h1{
+	font-size:35px;
+	color: #FFF;
+}
+
+#cos p{
+	font-size:23px;
+	line-height: 24px;
+	color: #FFF;
+	margin-top: -20px;
+}
+
+#peu{
+	height: 220px;
+}
+
+#peu p{
+	font-size:18px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+
+.registro{
+	background-color: #FFF;
+	width: 171px;
+	height: 47px;
+	border-radius: 5px;
+	margin:0 auto 0 auto;
+}
+
+#peu .registro p{
+	font-size:18px;
+	color:#EA5851;
+	padding-top: 10px;
+
+}
+
+a{
+	text-decoration-line: none;
+}
+
+}

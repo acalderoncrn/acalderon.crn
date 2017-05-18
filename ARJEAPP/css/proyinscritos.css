@@ -1,0 +1,239 @@
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#barra .titulo{
+	width:185px;
+	height:24px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/proyinscritos.png); 
+}
+#barra .atras{
+	width: 32px;
+	height:32px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+#barra .cruz{
+	width:29px;
+	height:29px;
+	float: right;
+	margin-right:15px;
+	margin-top:12px;
+	background-repeat: no-repeat;
+	background-image: url(img/cruz.png); 
+}
+#subarra{
+	height: 52px;
+	margin-top:52px;
+	background-color: #FFF;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#subarra .cuadricula{
+	width:48px;
+	height:48px;
+	float: right;
+	margin-right:-3px;
+	margin-top:11px;
+	background-repeat: no-repeat;
+	background-image: url(img/verlista.png); 
+}
+#subarra .verlista{
+	width:26px;
+	height:24px;
+	float: right;
+	margin-right:20px;
+	margin-top:11px;
+	background-repeat: no-repeat;
+	background-image: url(img/cuadricula.png); 
+}
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px;
+	width: 50%;
+}
+.proyecto {
+	margin: 20px auto;
+	height: 78px;
+	overflow: hidden;
+}
+.proyecto:hover{
+	background-color: #C8E4D6;
+}
+#foto{
+	background-image: url(img/fotopi.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	height:66px;
+	width:99px;
+	float: left;
+}
+h1{
+	margin-top: 20px;
+	color:#7E7E7E;
+	font-size:16px;
+	line-height:2px;
+}
+p{
+	color:#7E7E7E;
+	font-size: 12px;
+}
+.nombre {
+	font-weight: bold;
+	float: left;
+	width: 50%;
+	margin-left: 15px;
+}
+.mensa{
+	float: left;
+	width:200px;
+	margin-left: 15px;
+	margin-top: -2px;
+	margin-bottom: -2px;
+}
+a{
+	text-decoration-line: none;
+}
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 479px) and (orientation: portrait){
+
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#barra .titulo{
+	width:185px;
+	height:24px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/proyinscritos.png); 
+}
+#barra .atras{
+	width: 32px;
+	height:32px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+#barra .cruz{
+	width:29px;
+	height:29px;
+	float: right;
+	margin-right:15px;
+	margin-top:12px;
+	background-repeat: no-repeat;
+	background-image: url(img/cruz.png); 
+}
+#subarra{
+	height: 52px;
+	margin-top:52px;
+	background-color: #FFF;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#subarra .cuadricula{
+	width:48px;
+	height:48px;
+	float: right;
+	margin-right:-3px;
+	margin-top:11px;
+	background-repeat: no-repeat;
+	background-image: url(img/verlista.png); 
+}
+#subarra .verlista{
+	width:26px;
+	height:24px;
+	float: right;
+	margin-right:20px;
+	margin-top:11px;
+	background-repeat: no-repeat;
+	background-image: url(img/cuadricula.png); 
+}
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px;
+	width: 95%;
+}
+.proyecto {
+	margin: 20px auto;
+	height: 78px;
+	overflow: hidden;
+}
+.proyecto:hover{
+	background-color: #C8E4D6;
+}
+#foto{
+	background-image: url(img/fotopi.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	height:66px;
+	width:99px;
+	float: left;
+}
+h1{
+	margin-top: 20px;
+	color:#7E7E7E;
+	font-size:16px;
+	line-height:2px;
+}
+p{
+	color:#7E7E7E;
+	font-size: 12px;
+}
+.nombre {
+	font-weight: bold;
+	float: left;
+	width: 50%;
+	margin-left: 15px;
+}
+.mensa{
+	float: left;
+	width:200px;
+	margin-left: 15px;
+	margin-top: -2px;
+	margin-bottom: -2px;
+}
+a{
+	text-decoration-line: none;
+}
+}

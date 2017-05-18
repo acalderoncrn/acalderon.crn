@@ -1,0 +1,147 @@
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#barra .titulo{
+	width:125px;
+	height:26px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/busqueda.png); 
+}
+#barra .atras{
+	width: 32px;
+	height:32px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px;
+	width: 95%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.filtro{
+	background-color: #C8E4D6;
+	width: 250px;
+	height: 43px;
+	margin: 0 auto 0 auto;
+
+}
+.img{
+	width: 18px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-image: url(img/desplegar.png);
+	float: right;
+	margin-top: -35px;
+	margin-right: 12px;
+}
+p{
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: 7px;
+
+}
+
+a{
+	text-decoration-line: none;
+}
+
+
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 479px) and (orientation: portrait){
+
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#barra .titulo{
+	width:125px;
+	height:26px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/busqueda.png); 
+}
+#barra .atras{
+	width: 32px;
+	height:32px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px;
+	width: 95%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.filtro{
+	background-color: #C8E4D6;
+	width: 250px;
+	height: 43px;
+	margin: 0 auto 0 auto;
+
+}
+.img{
+	width: 18px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-image: url(img/desplegar.png);
+	float: right;
+	margin-top: -35px;
+	margin-right: 12px;
+}
+p{
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: 7px;
+
+}
+a{
+	text-decoration-line: none;
+}
+
+
+
+}

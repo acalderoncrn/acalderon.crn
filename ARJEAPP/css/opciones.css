@@ -1,0 +1,243 @@
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#barra .titulo{
+	width:123px;
+	height:29px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/opciones.png); 
+}
+#barra .menu{
+	width: 25px;
+	height:18px;
+	float: left;
+	margin-left:14px;
+	margin-top:20px;
+	background-repeat: no-repeat;
+	background-image: url(img/menu.png); 
+}
+
+#barra .menu nav{
+	width: 40%;
+	height: 100%;
+	left: -100%;
+	margin: 0;
+	position: fixed;
+	background-color: #EA5851;
+}
+
+#barra .menu nav ul li{
+	display: block;
+	float: none;
+	margin-top: 25px;
+	
+}
+
+#barra .menu nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	background-color: #C8E4D6;
+
+}
+.menu {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px;
+	width: 95%;
+	font-size: 16px;
+	font-weight: medium;
+	color: #7E7E7E;
+}
+
+.not{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-image: url(img/notificacion.png);
+}
+
+.val{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-image: url(img/valoracionapp.png);
+}
+
+.pol{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-image: url(img/politica.png);
+}
+
+.salir{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-image: url(img/salir.png);
+}
+
+.not, .val, .pol, .salir{
+	width: 250px;
+	height: 43px;
+	margin: 20px auto 0 auto;
+}
+
+p{
+	text-align: center;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 479px) and (orientation: portrait){
+
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#barra .titulo{
+	width:123px;
+	height:29px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/opciones.png); 
+}
+#barra .menu{
+	width: 25px;
+	height:18px;
+	float: left;
+	margin-left:14px;
+	margin-top:20px;
+	background-repeat: no-repeat;
+	background-image: url(img/menu.png); 
+}
+
+#barra .menu nav{
+	width: 80%;
+	height: 100%;
+	left: -100%;
+	margin: 0;
+	position: fixed;
+	background-color: #EA5851;
+}
+
+#barra .menu nav ul li{
+	display: block;
+	float: none;
+	margin-top: 20px;
+	
+}
+
+#barra .menu nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	background-color: #C8E4D6;
+}
+.menu {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px;
+	width: 95%;
+	font-size: 16px;
+	font-weight: medium;
+	color: #7E7E7E;
+}
+
+.not{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-image: url(img/notificacion.png);
+}
+
+.val{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-image: url(img/valoracionapp.png);
+}
+
+.pol{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-image: url(img/politica.png);
+}
+
+.salir{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-image: url(img/salir.png);
+}
+
+.not, .val, .pol, .salir{
+	width: 250px;
+	height: 43px;
+	margin: 20px auto 0 auto;
+}
+
+p{
+	text-align: center;
+}
+a{
+	text-decoration-line: none;
+}
+
+}

@@ -1,0 +1,258 @@
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#barra .titulo{
+	width:102px;
+	height:24px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/valoracion.png); 
+}
+#barra .atras{
+	width: 32px;
+	height:32px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px;
+	width: 50%;
+	color: #7E7E7E;
+}
+#texto{
+	float:right;
+	width: 180px;
+	height: 100px;
+	overflow: hidden;
+	margin-top: -110px;
+}
+
+#foto{
+	background-image: url(img/fotovalora.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	height:112px;
+	width:169px;
+	
+}
+h1{
+	margin-top: 10px;
+	color:#7E7E7E;
+	font-size:20px;
+	line-height:20px;
+}
+p{
+	color:#7E7E7E;
+	font-size: 12px;
+	line-height:14px;
+}
+.nombre {
+	font-weight: bold;
+	float: left;
+	width: 50%;
+	margin-left: 15px;
+}
+.mensa{
+	float: left;
+	width:200px;
+	margin-left: 15px;
+	margin-top: -2px;
+	margin-bottom: -2px;
+}
+
+#corazones{
+	width: 220px;
+	height: 100px;
+	position: relative;
+	margin: 30px auto -55px auto;
+}
+
+.cora{
+	background-repeat: no-repeat;
+	background-image: url(img/corfav.png);
+	width: 28px;
+	height: 25px;
+	margin-left: 15px;
+	float: right;
+}
+.cora:hover{
+	background-image: url(img/corazon.png);
+}
+a:active{
+	background-image: url(img/corazon.png);
+}
+
+textarea{
+	width: 100%;
+	height: 235px;
+	padding: 12px 12px;
+    margin: 8px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: #7E7E7E;
+    font-style: oblique;
+    border-radius: 5px;
+}
+
+#boton{
+	width: 171px;
+	height: 47px;
+	background-image: url(img/botonenviar.png);
+	background-repeat: no-repeat;
+	margin: 20px auto 0 auto;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 479px) and (orientation: portrait){
+
+body{
+font-family:"Poppins";
+background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+#barra .titulo{
+	width:102px;
+	height:24px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/valoracion.png); 
+}
+#barra .atras{
+	width: 32px;
+	height:32px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+	margin-top:104px;
+	width: 95%;
+	color: #7E7E7E;
+}
+#texto{
+	float:right;
+	width: 180px;
+	height: 100px;
+	overflow: hidden;
+	margin-top: -110px;
+}
+
+#foto{
+	background-image: url(img/fotovalora.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	height:112px;
+	width:169px;
+	
+}
+h1{
+	margin-top: 10px;
+	color:#7E7E7E;
+	font-size:20px;
+	line-height:20px;
+}
+p{
+	color:#7E7E7E;
+	font-size: 12px;
+	line-height:14px;
+}
+.nombre {
+	font-weight: bold;
+	float: left;
+	width: 50%;
+	margin-left: 15px;
+}
+.mensa{
+	float: left;
+	width:200px;
+	margin-left: 15px;
+	margin-top: -2px;
+	margin-bottom: -2px;
+}
+
+#corazones{
+	width: 220px;
+	height: 100px;
+	position: relative;
+	margin: 30px auto -55px auto;
+}
+
+.cora{
+	background-repeat: no-repeat;
+	background-image: url(img/corfav.png);
+	width: 28px;
+	height: 25px;
+	margin-left: 15px;
+	float: right;
+}
+.cora:hover{
+	background-image: url(img/corazon.png);
+}
+a:active{
+	background-image: url(img/corazon.png);
+}
+
+textarea{
+	width: 100%;
+	height: 235px;
+	padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: #7E7E7E;
+    font-style: oblique;
+    border-radius: 5px;
+}
+
+#boton{
+	width: 171px;
+	height: 47px;
+	background-image: url(img/botonenviar.png);
+	background-repeat: no-repeat;
+	margin: 20px auto 0 auto;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+}

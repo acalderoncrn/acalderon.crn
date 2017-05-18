@@ -1,0 +1,503 @@
+	body{
+	font-family:"Poppins";
+}
+
+#barra{
+	height:52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#barra .perfil{
+	width:72px;
+	height:26px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/perfil.png);
+}
+
+#barra .menu{
+	width:25px;
+	height:18px;
+	float: left;
+	margin-left:14px;
+	margin-top:20px;
+	background-repeat: no-repeat;
+	background-image: url(img/menu.png); 
+}
+
+
+
+
+
+#barra .menu nav{
+	width: 40%;
+	height: 100%;
+	left: -100%;
+	margin: 0;
+	position: fixed;
+	background-color: #EA5851;
+}
+
+#barra .menu nav ul li{
+	display: block;
+	float: none;
+	margin-top: 25px;
+	
+}
+
+#barra .menu nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	background-color: #C8E4D6;
+
+}
+.menu {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+#barra .editar{
+	width:33px;
+	height:30px;
+	float: right;
+	margin-right:12px;
+	margin-top:14px;
+	background-repeat: no-repeat;
+	background-image: url(img/editar.png); 
+}
+
+#subarra{
+	height: 52px;
+	margin-top:52px;
+	background-color: #FFF;
+	z-index:9;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#subarra .crear{
+	width:27px;
+	height:27px;
+	margin-left: 14px;
+	margin-top: 11px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-image: url(img/crear.png); 
+}
+
+#subarra .fav{
+	width:28px;
+	height:25px;
+	margin-top: 11px;
+	margin-right: 14px;
+	float: right;
+	background-repeat: no-repeat;
+	background-image: url(img/corazon.png); 
+
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+}
+
+#perfil1{
+	height: 700px;
+	margin-top: 100px;
+}
+
+#info{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#info h1{
+	color: #7E7E7E;
+	margin-right:12px;
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#info p{
+	color: #7E7E7E;
+	margin-right:12px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 3px;
+}
+
+#info .fotoperfil{
+	height: 138px;
+	width: 138px;
+	float: right;
+	margin-top: -145px;
+	background-image: url(img/fotoperfil.png);
+}
+.proy{
+	margin-left:30%;
+	opacity: 0.7;
+	color: #7E7E7E;
+	font-weight: bold;
+	float: left;
+
+}
+
+.linea{
+	height: 23px;
+	width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	right: 20px;
+	margin-top: 35px;
+	position: relative;
+	background-image: url(img/linea.png);
+	background-repeat: no-repeat;
+}
+
+.val{
+	opacity: 0.7;
+	color: #7E7E7E;
+	font-weight: bold;
+	float: right;
+	margin-right: 30%;
+}
+
+.separador{
+	width: 50%;
+	height: 2px;
+	margin:0px auto 0 auto; 
+	background-image: url(img/separador.png);
+}
+
+.proyectoperfil{
+	width: 50%;
+	height: 70%;
+	margin: 13px auto 0 auto;
+	background-image: url(img/proyectoperfil.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.apuntarse{
+	width:81px;
+	height:81px;
+	margin-top:-30px;
+	background-image:url(img/apuntarse.png);
+	position: absolute;
+	left: 25%;
+	z-index:5;
+}
+
+#info2{
+	color: #7E7E7E;
+	margin-right:25%;
+	text-align: right;
+	font-size:12px;
+	font-weight: lighter;
+	line-height: 3px;
+}
+
+#desc{
+	width: 50%;
+	margin:50px auto 0 auto;
+}
+
+#desc h1{
+	color: #7E7E7E;
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#desc p{
+	color: #7E7E7E;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 512px) and (orientation: portrait){
+
+	body{
+	font-family:"Poppins";
+}
+
+#barra{
+	height:52px;
+	background-color:#EA5851;
+	z-index:10;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#barra .perfil{
+	width:72px;
+	height:26px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/perfil.png);
+}
+
+#barra .menu{
+	width:25px;
+	height:18px;
+	float: left;
+	margin-left:14px;
+	margin-top:20px;
+	background-repeat: no-repeat;
+	background-image: url(img/menu.png); 
+}
+
+
+
+
+#barra .menu nav{
+	width: 80%;
+	height: 100%;
+	left: -100%;
+	margin: 0;
+	position: fixed;
+	background-color: #EA5851;
+}
+
+#barra .menu nav ul li{
+	display: block;
+	float: none;
+	margin-top: 20px;
+	
+}
+
+#barra .menu nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	background-color: #C8E4D6;
+}
+.menu {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+#barra .editar{
+	width:33px;
+	height:30px;
+	float: right;
+	margin-right:12px;
+	margin-top:14px;
+	background-repeat: no-repeat;
+	background-image: url(img/editar.png); 
+}
+
+#subarra{
+	height: 52px;
+	margin-top:52px;
+	background-color: #FFF;
+	z-index:9;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#subarra .crear{
+	width:27px;
+	height:27px;
+	margin-left: 14px;
+	margin-top: 11px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-image: url(img/crear.png); 
+}
+
+#subarra .fav{
+	width:28px;
+	height:25px;
+	margin-top: 11px;
+	margin-right: 14px;
+	float: right;
+	background-repeat: no-repeat;
+	background-image: url(img/corazon.png); 
+
+}
+
+#cos{
+	height: 900px;
+	margin: 0 auto;
+}
+
+#perfil1{
+	height: 700px;
+	margin-top: 100px;
+}
+
+#info{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#info h1{
+	color: #7E7E7E;
+	margin-right:12px;
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#info p{
+	color: #7E7E7E;
+	margin-right:12px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 3px;
+}
+
+#info .fotoperfil{
+	height: 138px;
+	width: 138px;
+	float: right;
+	margin-top: -145px;
+	background-image: url(img/fotoperfil.png);
+}
+.proy{
+	margin-left:43px;
+	opacity: 0.7;
+	color: #7E7E7E;
+	font-weight: bold;
+	float: left;
+}
+
+.linea{
+	height: 23px;
+	width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	right: 20px;
+	margin-top: 35px;
+	position: relative;
+	background-image: url(img/linea.png);
+	background-repeat: no-repeat;
+}
+
+.val{
+	opacity: 0.7;
+	color: #7E7E7E;
+	font-weight: bold;
+	float: right;
+	margin-right: 25px;
+}
+
+.separador{
+	width: 95%;
+	height: 2px;
+	margin:0px auto 0 auto; 
+	background-image: url(img/separador.png);
+}
+
+.proyectoperfil{
+	width: 95%;
+	height: 224px;
+	margin: 13px auto 0 auto;
+	background-image: url(img/proyectoperfil.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.apuntarse{
+	width:81px;
+	height:81px;
+	margin-top:-30px;
+	background-image:url(img/apuntarse.png);
+	position: absolute;
+	left: 5%;
+	z-index:5;
+}
+
+#info2{
+	color: #7E7E7E;
+	margin-right:11px;
+	text-align: right;
+	font-size:12px;
+	font-weight: lighter;
+	line-height: 3px;
+}
+
+#desc{
+	width: 95%;
+	margin:50px auto 0 auto;
+}
+
+#desc h1{
+	color: #7E7E7E;
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#desc p{
+	color: #7E7E7E;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+a{
+	text-decoration-line: none;
+}
+}
+
+

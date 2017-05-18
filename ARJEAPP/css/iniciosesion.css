@@ -1,0 +1,165 @@
+body{
+	font-family:"Poppins";
+	background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#barra .logo{
+	width:72px;
+	height:54px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/logotipo_arje_blanco.png); 
+}
+
+#barra .atras{
+	width:48px;
+	height:48px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+
+#cos{
+	height: 500px;
+}
+
+.lista{
+	margin-top: 150px;
+}
+
+.lista ul li textarea{
+	display: block;
+	margin: 13px auto 0 auto;
+	width:40%;
+	color:#C8E4D6;
+	font-size: 16px;
+	font-family: Poppins;
+	line-height: 10px;
+    font-weight:normal;
+	border:none;
+	border-bottom: solid 1px #C8E4D6;
+}
+
+#boton{
+	height: 100px;
+	margin-top:66px;
+	margin-bottom:0; 
+}
+	
+.registro{
+	background-color:#EA5851;
+	width: 171px;
+	height: 47px;
+	border-radius: 5px;
+	margin-left: 107px;
+	margin: 0 auto;
+}
+
+#boton .registro p{
+	font-size:18px;
+	color:#FFF;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+/*Estil per una telèfon Android*/
+@media only screen and (min-width: 400px) and (max-width: 479px) and (orientation: portrait){
+	
+
+body{
+	font-family:"Poppins";
+	background-color:#FFF;
+}
+#barra{
+	height: 52px;
+	background-color:#EA5851;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+
+#barra .logo{
+	width:72px;
+	height:54px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/logotipo_arje_blanco.png); 
+}
+
+#barra .atras{
+	width:48px;
+	height:48px;
+	float: left;
+	margin-left:12px;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-image: url(img/botonAtras.png); 
+}
+
+#cos{
+	height: 500px;
+}
+
+.lista{
+	margin-top: 150px;
+}
+
+.lista ul li textarea{
+	display: block;
+	margin: 13px auto 0 auto;
+	width:70%;
+	color:#C8E4D6;
+	font-size: 16px;
+	font-family: Poppins;
+	line-height: 10px;
+    font-weight:normal;
+	border:none;
+	border-bottom: solid 1px #C8E4D6;
+}
+
+#boton{
+	height: 100px;
+	margin-top:66px;
+	margin-bottom:0; 
+}
+	
+.registro{
+	background-color:#EA5851;
+	width: 171px;
+	height: 47px;
+	border-radius: 5px;
+	margin-left: 107px;
+	margin: 0 auto;
+}
+
+#boton .registro p{
+	font-size:18px;
+	color:#FFF;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+a{
+	text-decoration-line: none;
+}
+}
