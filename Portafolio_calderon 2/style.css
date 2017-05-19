@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*---------------------------------------------------------------------------------
+
+	Theme Name: Medusa
+    Version: 0.9
+	Author: Amanda Calderón
+	Description: Medusa és un tema de prova.
+    Tags: portfolio, photography
+	
+	
+-----------------------------------------------------------------------------------*/
+
+@import url('css/reset.css') screen;
+@import url('css/960_12_col') screen;
+@import url('css/plantilla.css') screen;
+
+

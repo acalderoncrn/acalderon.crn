@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ptsblockprodcarousel</name>
+	<displayName><![CDATA[Pts Products Carousel Block]]></displayName>
+	<version><![CDATA[2.0]]></version>
+	<description><![CDATA[Display Products of Categories in Carousel.]]></description>
+	<author><![CDATA[PrestaBrain]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

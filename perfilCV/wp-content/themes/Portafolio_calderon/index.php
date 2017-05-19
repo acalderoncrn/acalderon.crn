@@ -4,8 +4,8 @@
 	<div id=cos class="container_12">
 		<div id="barra">
 			<div class="cita">
-			<p>Sin arte la vida sería un error.</p>
-			<p>» Friedrich Nietzsche  (1844-1900)</p>
+			<cite>"Sin arte la vida sería un error"</cite>
+			<p>Friedrich Nietzsche  (1844-1900)</p>
 			</div>
 			<div id="link1"></div>
 		</div>
@@ -35,14 +35,14 @@
 		<div>
 			<p id="ctexto" class="push_5">CONTACTO</p>
 		
-			<form>
-			<input class="nombre grid_4 push_4" type="text" name="contacto" placeholder="Nombre" >
+			<form class="">
+			<input class="nombre grid_ push_" type="text" name="contacto" placeholder="Nombre" >
 			<br>
-			<input class="email grid_4 push_4" type="text" name="contacto" placeholder="Email" >
+			<input class="email grid_ push_" type="text" name="contacto" placeholder="Email" >
 			<br>
-			<input class="asunto grid_4 push_4" type="text" name="contacto" placeholder="Asunto" >
+			<input class="asunto grid_ push_" type="text" name="contacto" placeholder="Asunto" >
 			<br>
-			<input class="mensaje grid_4 push_4" type="text" name="contacto" placeholder="Mensaje" >
+			<input class="mensaje grid_ push_" type="text" name="contacto" placeholder="Mensaje" >
 			<br>
 			</form>
 
